@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Christianascone_HelloWorld::helloworld" title="Hello World" module="Christianascone_HelloWorld" sortOrder="51" resource="Christianascone_HelloWorld::helloworld"/>
+        <add id="Christianascone_HelloWorld::post" title="Manage Posts" module="Christianascone_HelloWorld" sortOrder="10" action="christianascone_helloworld/post" resource="Christianascone_HelloWorld::post" parent="Christianascone_HelloWorld::helloworld"/>
+        <add id="Christianascone_HelloWorld::hello_configuration" title="Configuration" module="Christianascone_HelloWorld" sortOrder="99" parent="Christianascone_HelloWorld::helloworld" action="adminhtml/system_config/edit/section/helloworld" resource="Christianascone_HelloWorld::helloworld_configuration"/>
+    </menu>
+</config>

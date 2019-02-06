@@ -1,0 +1,25 @@
+{
+    "name": "christianascone/module-helloworld",
+    "description": "",
+
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": "Christianascone License",
+    "authors": [
+        {
+          "name": "Hi",
+          "email": "ascone.christian@gmail.com",
+          "role": "Leader"
+        }
+    ],
+
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Christianascone\\HelloWorld\\": ""
+        }
+    }
+
+}
